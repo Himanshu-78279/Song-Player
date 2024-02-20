@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/702e6211f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Song</title>
+  </head>
+    <body>
+        <div class="container">
+            <div class="musicPlayer">
+                <nav>
+                  <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                  </div>
+                  <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                  </div>
+                </nav>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRWjzEnnlxB-dAKl3Ay_qcX5ckFfaiI-7vw&usqp=CAU"
+                alt="SongImg" id="SongImg"/>
+              <p id="songName">Aarambh hai prachand</p>
+              <p id="songWritter">Piyush Mishra</p>
+              <audio id="SongAudio" controls src="Doraemon.mp3"></audio>
+              <input type="range" value="0" id="SongAudioRange">
+              <div id="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div><i class="fa-solid fa-play" id="cntl"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+              </div>
+            </div>
+        </div>
+    </body>
+  <script src="script.js"></script>
+</html>

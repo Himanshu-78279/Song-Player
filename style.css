@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.musicPlayer{
+    width: 400px;
+    padding: 25px 35px;
+    background-color: #FFCCDC;
+    text-align: center;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: #f53192;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(255,26,26,0.22);
+}
+#SongImg{
+    width: 240px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 6px solid purple;
+    background-color: white;
+}
+#songName{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #f53192;
+}
+#songWritter{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f53192;
+}
+#SongAudio{
+    margin-top: 20px;
+}
+#SongAudioRange{
+    -webkit-appearance: none;
+    margin-top: 30px;
+    width: 90%;
+    height: 7px;
+    border-radius: 10px;
+    background-color: #f53192;
+    cursor: pointer;    
+}
+#SongAudioRange::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: #f53192;
+    width: 30px;
+    height: 30px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(255,26,26,0.22);
+}
+#controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#controls div{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: #f53192;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(255,26,26,0.22);
+    cursor: pointer;
+}
+#controls div:nth-child(2){
+    transform: scale(1.5);
+    padding-left: 1px;
+    background-color: #f53192;
+    color: #fff;
+}
